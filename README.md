@@ -39,8 +39,8 @@ This is a fully animated, interactive, 3D professional portfolio showcasing adva
 ## 📦 Setup & Installation
 
 ```bash
-git clone https://github.com/jawadhassan/data-ai-portfolio.git
-cd data-ai-portfolio
+git clone https://github.com/Mjawad009/Portfolio-Jawad.git
+cd Portfolio-Jawad
 npm install
 npm run dev
 ```
@@ -54,7 +54,7 @@ npm run dev
 If you're looking to transform raw data into strategic business decisions or deploy autonomous AI workflows:
 
 - 📬 [Connect on LinkedIn](https://www.linkedin.com/in/jawadhassan/)
-- 💻 [Check out my GitHub](https://github.com/jawadhassan)
+- 💻 [Check out my GitHub](https://github.com/Mjawad009)
 
 ---
 
