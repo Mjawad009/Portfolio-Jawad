@@ -19,7 +19,7 @@ const Metrics = () => {
   }, []);
 
   return (
-    <section className="metrics-container px-6 py-12 md:py-16 bg-white">
+    <section id="metrics" className="metrics-container px-6 py-12 md:py-16 bg-white">
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
         {/* Professional Impact */}
         <div className="flex flex-wrap justify-center gap-8 md:gap-12 w-full md:w-auto">

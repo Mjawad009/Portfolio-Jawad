@@ -35,16 +35,16 @@ const ContactSummary = () => {
   }, []);
   return (
     <section
+      id="contactsummary"
       ref={containerRef}
-      className="flex flex-col items-center justify-between min-h-screen gap-12 mt-16"
+      className="flex flex-col items-center justify-between min-h-screen gap-8 mt-16"
     >
       <Marquee items={items} />
-      <div className="overflow-hidden font-light text-center contact-text-responsive">
+      <div className="px-6 overflow-hidden font-light text-center contact-text-responsive max-w-5xl">
         <p>
-          “ Let’s build an <br />
-          <span className="font-normal">intelligent</span> &{" "}
-          <span className="italic">data-driven</span> <br />
-          future <span className="text-gold">together</span> “
+          “ Let’s build an <span className="font-normal">intelligent</span> &{" "}
+          <span className="italic">data-driven</span> future{" "}
+          <span className="text-gold">together</span> “
         </p>
       </div>
       <Marquee

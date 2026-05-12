@@ -37,7 +37,7 @@ const Works = () => {
         withScrollTrigger={true}
       />
 
-      <div className="flex flex-col gap-24 px-10 py-20">
+      <div className="flex flex-col gap-24 px-6 sm:px-10 py-20">
         {projects.map((project, index) => (
           <div
             key={project.id}
@@ -64,9 +64,17 @@ const Works = () => {
                 <h2 className="text-3xl md:text-5xl font-normal leading-tight max-w-2xl">
                   {project.name}
                 </h2>
-                <div className="p-4 rounded-full border border-black/10 group-hover:bg-black group-hover:text-white transition-all duration-300 transform group-hover:rotate-45">
-                  <Icon icon="lucide:arrow-up-right" className="size-6 md:size-8" />
-                </div>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-4 rounded-full border border-black/10 group-hover:bg-black group-hover:text-white transition-all duration-300 transform group-hover:rotate-45 cursor-pointer"
+                >
+                  <Icon
+                    icon="lucide:arrow-up-right"
+                    className="size-6 md:size-8"
+                  />
+                </a>
               </div>
 
               <p className="text-xl md:text-2xl text-black/60 italic font-light">

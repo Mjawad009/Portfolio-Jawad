@@ -22,7 +22,7 @@ const Hero = () => {
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
         subTitle={"Senior Data Analyst & AI Systems Developer"}
-        title={"Jawad"}
+        title={"Muhammad"}
         text={text}
         textColor={"text-black"}
       />
@@ -34,9 +34,10 @@ const Hero = () => {
           iconClassName="text-gold"
         />
       </div>
+
       <figure
         className="absolute inset-0 -z-50"
-        style={{ width: "100vw", height: "100vh" }}
+        style={{ width: "100%", height: "100vh" }}
       >
         <Canvas
           shadows

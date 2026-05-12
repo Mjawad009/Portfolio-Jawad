@@ -98,12 +98,24 @@
   --font-space: "Space Grotesk", sans-serif;
 
   --animate-marquee: marquee 40s infinite linear;
+  --animate-scroll-line: scroll-line 2s infinite ease-in-out;
   @keyframes marquee {
     from {
       transform: translateX(0);
     }
     to {
       transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes scroll-line {
+    0% {
+      transform: translateY(-100%);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
     }
   }
 }
@@ -121,18 +133,18 @@ body {
 }
 
 @utility banner-text-responsive {
-  @apply font-space font-bold text-[40px] sm:text-[80px] md:text-[100px] lg:text-[120px] leading-[1.1] sm:leading-16 lg:leading-20;
+  @apply font-space font-bold text-[32px] xs:text-[40px] sm:text-[80px] md:text-[100px] lg:text-[120px] leading-[1.1] sm:leading-16 lg:leading-20;
 }
 
 @utility value-text-responsive {
-  @apply font-inter text-xl md:text-[26px] lg:text-[32px];
+  @apply font-inter text-lg xs:text-xl md:text-[26px] lg:text-[32px];
 }
 
 @utility marquee-text-responsive {
-  @apply font-space font-light text-[24px] sm:text-[36px] lg:text-[42px];
+  @apply font-space font-light text-[20px] xs:text-[24px] sm:text-[36px] lg:text-[42px];
 }
 
 @utility contact-text-responsive {
-  @apply font-space font-medium text-[36px] sm:text-[52px] md:text-[62px] lg:text-[100px] leading-tight;
+  @apply font-space font-medium text-[28px] xs:text-[36px] sm:text-[52px] md:text-[62px] lg:text-[100px] leading-tight;
 }
 

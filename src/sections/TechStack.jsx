@@ -13,7 +13,7 @@ const TechStack = () => {
         withScrollTrigger={true}
       />
       
-      <div className="px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12">
+      <div className="px-6 sm:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12">
         {techStack.map((stack, index) => (
           <div key={index} className="flex flex-col gap-4">
             <h3 className="text-2xl font-bold uppercase tracking-wider border-b-2 border-black/10 pb-2">
@@ -30,7 +30,7 @@ const TechStack = () => {
         ))}
       </div>
 
-      <div className="px-10 mt-32">
+      <div className="px-6 sm:px-10 mt-32">
         <h3 className="text-3xl font-light uppercase tracking-widest mb-8">Currently Exploring</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {currentlyWorkingOn.map((item, index) => (

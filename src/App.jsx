@@ -10,10 +10,11 @@ import Projects from "./sections/Projects";
 import TechStack from "./sections/TechStack";
 import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
+import NextSectionIndicator from "./components/NextSectionIndicator";
 
 const App = () => {
   return (
-    <ReactLenis root className="relative w-screen min-h-screen overflow-x-auto">
+    <ReactLenis root className="relative w-full min-h-screen overflow-x-hidden">
       <div className="opacity-100 transition-opacity duration-1000">
         <Navbar />
         <Hero />
@@ -25,6 +26,7 @@ const App = () => {
         <TechStack />
         <ContactSummary />
         <Contact />
+        <NextSectionIndicator />
       </div>
     </ReactLenis>
   );

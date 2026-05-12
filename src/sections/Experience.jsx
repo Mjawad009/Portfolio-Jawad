@@ -39,7 +39,7 @@ const Experience = () => {
         <div
           ref={(el) => (experienceRefs.current[index] = el)}
           key={index}
-          className="sticky px-10 pt-6 pb-12 text-white bg-black border-t-2 border-white/30"
+          className="sticky px-6 sm:px-10 pt-6 pb-12 text-white bg-black border-t-2 border-white/30"
           style={
             isDesktop
               ? {

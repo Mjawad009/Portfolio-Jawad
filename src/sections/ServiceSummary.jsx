@@ -51,6 +51,7 @@ const ServiceSummary = () => {
 
   return (
     <section
+      id="services"
       ref={containerRef}
       className="mt-20 mb-42 overflow-hidden text-center font-light leading-snug contact-text-responsive space-y-3"
     >
