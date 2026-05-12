@@ -15,9 +15,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showBurger, setShowBurger] = useState(true);
   useGSAP(() => {
-    gsap.set(navRef.current, { xPercent: 100 });
+    gsap.set(navRef.current, { xPercent: 100, autoAlpha: 0 });
     gsap.set([linksRef.current, contactRef.current], {
-      autoAlpha: 0,
       x: -20,
     });
 
@@ -25,6 +24,7 @@ const Navbar = () => {
       .timeline({ paused: true })
       .to(navRef.current, {
         xPercent: 0,
+        autoAlpha: 1,
         duration: 1,
         ease: "power3.out",
       })
@@ -105,7 +105,7 @@ const Navbar = () => {
     <>
       <nav
         ref={navRef}
-        className="fixed z-50 flex flex-col w-full h-full px-6 sm:px-10 uppercase bg-black text-white/80 py-20 gap-y-6 md:w-1/2 md:left-1/2 z-50"
+        className="fixed z-50 flex flex-col w-full h-full px-6 sm:px-10 uppercase bg-black text-white/80 py-20 gap-y-6 md:w-1/2 md:left-1/2 invisible"
       >
         <div className="flex flex-col text-4xl xs:text-5xl gap-y-1 md:text-5xl lg:text-6xl flex-shrink-0">
           {["home", "experience", "about", "projects", "contact"].map(
