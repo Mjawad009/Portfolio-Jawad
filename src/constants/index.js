@@ -44,7 +44,7 @@ export const projects = [
     name: "AI Retail Intelligence & Autonomous Demand Optimization Platform",
     description: "Architected end-to-end retail analytics system combining time-series forecasting with inventory risk modeling.",
     tech: ["Python", "FastAPI", "Scikit-learn", "ARIMA", "Docker"],
-    link: "https://github.com/mjawad09/ai-retail-intelligence-platform",
+    link: "https://github.com/Mjawad009/ai-retail-intelligence-platform",
     points: [
       "Developed hybrid demand forecasting pipeline (ARIMA + Gradient Boosting) supporting multi-product predictions.",
       "Implemented stockout risk engine with safety-stock estimation and automated reorder recommendations.",
@@ -58,7 +58,7 @@ export const projects = [
     name: "Multi-Agent Business Reporting System",
     description: "Engineered LangGraph-based multi-agent workflow automating end-to-end business reporting.",
     tech: ["LangGraph", "PostgreSQL", "SQLAlchemy", "Pandas", "Python"],
-    link: "https://github.com/mjawad09/multi-agent-business-reporting-system",
+    link: "https://github.com/Mjawad009/multi-agent-business-reporting-system",
     points: [
       "Designed specialized agents (Planner, SQL, Analyst, Writer) to orchestrate data extraction and insight generation.",
       "Built PostgreSQL analytics pipeline with SQLAlchemy and Pandas for KPI computation.",
@@ -71,7 +71,7 @@ export const projects = [
     name: "ITC Trade Data Automation & Global Trade Analytics Dashboard",
     description: "Engineered automated data extraction pipeline to retrieve international trade datasets from the ITC.",
     tech: ["Python", "Tableau", "SQL", "Excel", "Automation"],
-    link: "https://github.com/mjawad09/itc-global-trade-dashboard",
+    link: "https://github.com/Mjawad009/itc-global-trade-dashboard",
     points: [
       "Developed Python-based automation to systematically collect export and import datasets covering 175+ countries.",
       "Built data cleaning and transformation workflows to convert raw, inconsistent trade data into structured analytical datasets.",

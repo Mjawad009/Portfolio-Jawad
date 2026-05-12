@@ -53,7 +53,7 @@ npm run dev
 
 If you're looking to transform raw data into strategic business decisions or deploy autonomous AI workflows:
 
-- 📬 [Connect on LinkedIn](https://www.linkedin.com/in/jawadhassan/)
+- 📬 [Connect on LinkedIn](https://www.linkedin.com/in/the-jawad-hassan/)
 - 💻 [Check out my GitHub](https://github.com/Mjawad009)
 
 ---
