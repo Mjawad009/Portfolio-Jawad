@@ -8,7 +8,6 @@ import ReactLenis from "lenis/react";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import TechStack from "./sections/TechStack";
-import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
 import NextSectionIndicator from "./components/NextSectionIndicator";
 
