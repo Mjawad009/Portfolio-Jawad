@@ -11,8 +11,7 @@ const sections = [
   { id: "services", label: "Services", next: "Experience", nextId: "experience" },
   { id: "experience", label: "Experience", next: "About", nextId: "about" },
   { id: "about", label: "About", next: "Projects", nextId: "projects" },
-  { id: "projects", label: "Projects", next: "Tech Stack", nextId: "techstack" },
-  { id: "contactsummary", label: "Summary", next: "Contact", nextId: "contact" },
+  { id: "projects", label: "Projects", next: "Contact", nextId: "contact" },
   { id: "contact", label: "Contact", next: "End", nextId: "" },
 ];
 
@@ -52,7 +51,7 @@ const NextSectionIndicator = () => {
         to={currentSection.nextId}
         smooth={true}
         duration={1000}
-        className="px-6 py-3 bg-black/50 backdrop-blur-md border border-white/10 rounded-full shadow-2xl flex items-center gap-3 relative overflow-hidden group cursor-pointer active:scale-95 transition-transform duration-200"
+        className="px-6 py-3 bg-black/50 backdrop-blur-md border border-white/10 rounded-full shadow-2xl flex items-center gap-3 relative overflow-hidden group cursor-pointer active:scale-95 transitio[...]
       >
         {/* Subtle Texture Overlay */}
         <div className="absolute inset-0 opacity-[0.05] pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
