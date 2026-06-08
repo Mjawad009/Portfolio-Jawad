@@ -12,7 +12,6 @@ const sections = [
   { id: "experience", label: "Experience", next: "About", nextId: "about" },
   { id: "about", label: "About", next: "Projects", nextId: "projects" },
   { id: "projects", label: "Projects", next: "Tech Stack", nextId: "techstack" },
-  { id: "techstack", label: "Tech Stack", next: "Summary", nextId: "contactsummary" },
   { id: "contactsummary", label: "Summary", next: "Contact", nextId: "contact" },
   { id: "contact", label: "Contact", next: "End", nextId: "" },
 ];
