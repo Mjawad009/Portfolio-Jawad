@@ -23,7 +23,6 @@ const App = () => {
         <About />
         <Projects />
         <TechStack />
-        <ContactSummary />
         <Contact />
         <NextSectionIndicator />
       </div>
